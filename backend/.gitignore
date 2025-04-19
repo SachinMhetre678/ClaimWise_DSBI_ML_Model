@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Python packaging and build artifacts
+*.egg-info/
+dist/
+pip-wheel-metadata/
+
+#venv
+/venv
+/.venv
+
+# Unit test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Model files (EXCEPT the ones you want to keep)
+*.pkl
+*.joblib
+!kmeans_model.pkl
+!scaler.pkl
+!pca.pkl
+
+# Local development files
+instance/
+
+# Flask secret key
+secret_key
+
+# Debug files
+*.prof
